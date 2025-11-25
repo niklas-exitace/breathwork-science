@@ -2,12 +2,9 @@
 
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, Loader2, ShoppingCart } from 'lucide-react';
-import { VARIANT_ID } from '../constants';
+import { VARIANT_ID, SHOPIFY_VARIANT_ID } from '../constants';
 import { LeadPayload } from '../types';
 import { redirectToCheckout } from '../lib/shopify';
-
-// Shopify product variant ID - same product for all landing pages
-const SHOPIFY_VARIANT_ID = process.env.NEXT_PUBLIC_SHOPIFY_VARIANT_ID || 'gid://shopify/ProductVariant/52429135053167';
 
 export const EmailForm: React.FC<{ compact?: boolean }> = ({ compact = false }) => {
   const [email, setEmail] = useState('');

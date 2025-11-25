@@ -1,16 +1,14 @@
 {
-  "name": "@dpl/breathwork-science",
+  "name": "breathwork-science",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@dpl/analytics": "workspace:*",
-    "@dpl/lead-capture": "workspace:*",
     "lucide-react": "^0.454.0",
     "next": "^14.2.0",
     "react": "^18.2.0",
@@ -18,7 +16,6 @@
     "recharts": "^2.12.0"
   },
   "devDependencies": {
-    "@dpl/tsconfig": "workspace:*",
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",

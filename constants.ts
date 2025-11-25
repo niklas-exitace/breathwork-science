@@ -1,6 +1,11 @@
 import { StatItem, CaseStudyData } from './types';
 
+// Landing page variant identifier (for analytics)
 export const VARIANT_ID = 'breathwork-science';
+
+// Shopify product variant ID - hardcoded, same across all landing pages
+// This is YOUR product in Shopify - all variants sell the same product
+export const SHOPIFY_VARIANT_ID = 'gid://shopify/ProductVariant/52429135053167';
 
 export const HERO_STATS: StatItem[] = [
   {
